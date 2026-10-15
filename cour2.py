@@ -31,3 +31,32 @@ ip["ip5"]="41.0.0.0"
 print (ip)
 ip.pop("ip5")
 print (ip)
+x=0
+ports={x in range (0,45888)}
+print (ports)
+#cour
+rt=10
+print (rt)
+print (rt.bit_length())
+opp=["rtiit",1,2.36,True]
+print (opp)
+print (len(opp))
+De={"nom":"riad","age":19}
+print (De)
+hj=De.keys()
+print (hj)
+print (type(hj))
+print (list (hj))
+print (type(list(hj)))
+ui=De.values()
+print (ui)
+print (type(ui))
+print (list(ui))
+print (type(list(ui)))
+De.setdefault("nom2","walid")
+print (De)
+dd={"a":[1,2,3,4,5],"b":(2,5,"riad"),"c":{"ab":"k"}}
+print (dd["a"][0:4])
+print (dd["b"][1])
+print (dd["c"]["ab"])
+
