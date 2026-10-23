@@ -59,4 +59,11 @@ dd={"a":[1,2,3,4,5],"b":(2,5,"riad"),"c":{"ab":"k"}}
 print (dd["a"][0:4])
 print (dd["b"][1])
 print (dd["c"]["ab"])
-
+print ("riad",end="/")
+print ("walid",end="/")
+print ("rayan")
+print("//////////////////////////////////////////////////////////////")
+h=print
+h("hhh")
+h("riad")
+h("eiakd")
